@@ -21,7 +21,7 @@ export const botConfig = {
     // 3 = Watching
     // 4 = Custom
     // 5 = Competing
-    activities: [
+    activities: [Playing
       {
         name: "Custom Status", // required by Discord API, not shown in the client
         state: "Modding Hub | CZ/SK👑",     // this is what people actually see
@@ -61,9 +61,9 @@ export const botConfig = {
   applications: {
     // Default questions shown when someone fills out an application.
     defaultQuestions: [
-      { question: "What is your name?", required: true },
-      { question: "How old are you?", required: true },
-      { question: "Why do you want to join?", required: true },
+      { question: "Jaké je tvoje jméno?", required: true },
+      { question: "Jak starý jsi?", required: true },
+      { question: "Proč se chceš připojit?", required: true },
     ],
 
     // Embed colors by application status.
